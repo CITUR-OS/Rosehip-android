@@ -4,7 +4,7 @@ from zipfile import ZipFile
 from json import load, dump
 class Configuration(object):
     def __init__(self, directory):
-        self.package = "Rosehip"
+        self.package = "com.Rosehip.myapp"
         self.name = "Rosehip"
         self.icon_name = "Rosehip"  
         self.version = "1.0.0"
