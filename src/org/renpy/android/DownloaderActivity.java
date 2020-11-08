@@ -93,8 +93,8 @@ public class DownloaderActivity extends Activity implements IDownloaderClient {
         mPauseButton.setText(stringResourceID);
     }
     
-    private int fileVersion = 0;
-    private int fileSize = 0;
+    private int fileVersion = 1;
+    private int fileSize = 22;
 
     boolean checkExpansionFile(String filename, boolean checkLength) {
     	File f = new File(filename);
